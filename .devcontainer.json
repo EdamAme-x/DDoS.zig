@@ -1,0 +1,11 @@
+{
+  "name": "Zig",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { 
+      "VARIANT": "0.9.0"
+    }
+  },
+  "extensions": ["ziglang.zig"],
+  "remoteUser": "vscode"
+}
