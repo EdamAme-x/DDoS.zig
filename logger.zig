@@ -17,5 +17,5 @@ pub fn log(level: []const u8, format: []const u8) void {
 
     const upperLevel: []const u8 = level;
 
-    std.debug.print("{s}[{s}]{s} :: {s}{s}\n", .{ color, upperLevel, "\x1b[0m", format });
+    std.debug.print("{s}[{s}]{s} :: {s}\n", .{ color, upperLevel, "\x1b[0m", format });
 }
