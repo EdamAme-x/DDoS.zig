@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile",
     "args": { 
-      "VARIANT": "0.9.0"
+      "ZIGVER": "0.9.0"
     }
   },
   "extensions": ["ziglang.zig"],
