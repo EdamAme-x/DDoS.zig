@@ -6,9 +6,9 @@ fn switchColor(level: []const u8) []const u8 {
     } else if (std.mem.eql(u8, level, "error")) {
         return "\x1b[31m";
     } else if (std.mem.eql(u8, level, "warn")) {
-        return "\x1b[32m";
+        return "\x1b[33m";
     } else {
-        return "\x1b[0m";
+        return "\x1b[32m";
     }
 }
 
